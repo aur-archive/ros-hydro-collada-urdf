@@ -1,0 +1,38 @@
+pkgbase = ros-hydro-collada-urdf
+	pkgdesc = ROS - This package contains a tool to convert Unified Robot Description Format (URDF) documents into COLLAborative Design Activity (COLLADA) documents.
+	pkgver = 1.10.20
+	pkgrel = 1
+	url = http://ros.org/wiki/collada_urdf
+	arch = any
+	license = BSD
+	makedepends = cmake
+	makedepends = git
+	makedepends = ros-build-tools
+	makedepends = ros-hydro-urdfdom
+	makedepends = ros-hydro-resource-retriever
+	makedepends = ros-hydro-collada-parser
+	makedepends = ros-hydro-urdfdom-headers
+	makedepends = ros-hydro-roscpp
+	makedepends = ros-hydro-angles
+	makedepends = ros-hydro-catkin
+	makedepends = ros-hydro-tf
+	makedepends = ros-hydro-geometric-shapes
+	makedepends = ros-hydro-urdf
+	makedepends = ros-hydro-cmake-modules
+	makedepends = assimp
+	makedepends = collada-dom
+	depends = ros-hydro-urdfdom
+	depends = ros-hydro-resource-retriever
+	depends = ros-hydro-collada-parser
+	depends = ros-hydro-urdfdom-headers
+	depends = ros-hydro-roscpp
+	depends = ros-hydro-angles
+	depends = ros-hydro-tf
+	depends = ros-hydro-geometric-shapes
+	depends = ros-hydro-urdf
+	depends = assimp
+	depends = collada-dom
+	source = collada_urdf::git+https://github.com/ros-gbp/robot_model-release.git#tag=release/hydro/collada_urdf/1.10.20-0
+
+pkgname = ros-hydro-collada-urdf
+
